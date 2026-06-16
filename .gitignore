@@ -20,9 +20,4 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Audio/test data - keep folder but do not accidentally commit large files
-*.wav
-*.mp3
-*.m4a
-*.flac
-!data/.gitkeep
+
