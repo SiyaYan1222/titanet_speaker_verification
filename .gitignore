@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+
+# Logs / local outputs
+*.log
+outputs/
+tmp/
+.cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Audio/test data - keep folder but do not accidentally commit large files
+*.wav
+*.mp3
+*.m4a
+*.flac
+!data/.gitkeep

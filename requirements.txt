@@ -1,0 +1,6 @@
+# UI framework for the local web app
+gradio>=4.44.1
+
+# NVIDIA NeMo ASR toolkit used by app.py for TitaNet speaker embeddings
+# This matches the original Hugging Face Space dependency.
+git+https://github.com/NVIDIA/NeMo.git@r2.0.0#egg=nemo_toolkit[asr]
