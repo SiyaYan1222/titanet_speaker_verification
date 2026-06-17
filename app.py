@@ -3,6 +3,9 @@ from pathlib import Path
 
 import gradio as gr
 import torch
+
+os.environ.setdefault("MPLCONFIGDIR", str(Path(__file__).with_name(".matplotlib")))
+
 from nemo.collections.asr.models import EncDecSpeakerLabelModel
 
 
